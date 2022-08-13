@@ -1,0 +1,116 @@
+.rodape {
+    background-color: #21252A;
+}
+.rodape__conteudo {
+    background-color: #21252A;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 4rem 0;
+}
+.rodape__imagem {
+    width: 100px;
+    transition: 1s;
+}
+.rodape__imagem:hover {
+    transform: translateY(-15px);
+}
+.rodape__contato {
+    display: flex;
+    flex-direction: column;
+}
+.rodape__titulo {
+    color: #F2F5F7;
+    font-size: 22px;
+}
+.rodape__lista{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+}
+.rodape__item {
+    display: flex;
+    flex-direction: row;
+    padding: 0.50rem 0;
+}
+.rodape__icone {
+    height: 20px;
+}
+.rodape__descricao {
+    color: #F2F5F7;
+    padding: 0 0 0 8px;
+    text-decoration: none;
+}
+.rodape__descricao:hover {
+    color: #cacaca;
+    text-decoration:underline;
+}
+.rodape__social {
+    display: flex;
+    flex-direction: column;
+}
+.rodape__social__titulo {
+    color: #F2F5F7;
+    font-size: 22px;
+}
+.rodape__social__lista {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 0;
+}
+.rodape__social__icone {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    padding-right: 0.75rem;
+    transition: .9s;
+    
+}
+.rodape__social__icone:hover {
+    transform: scale(1.1);
+}
+.copyright {
+    background-color: #EB602D;
+    color: #F2F5F7;
+    text-align: center;
+    padding: 0.25rem 0;
+}
+@media screen and (min-width: 0) {
+    .rodape__conteudo {
+        flex-direction: column;
+        padding: 2rem;
+        align-items: center;
+    }
+    .rodape__imagem {
+        width: 70px;
+        margin-bottom: 2rem;
+    }
+    .rodape__social {
+        align-items: center;
+    }
+    .copyright {
+        font-size: .7rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .rodape__conteudo {
+        flex-direction: row;
+    }
+    .copyright {
+        font-size: 1rem;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .rodape__conteudo {
+        padding: 4rem 0;
+    }
+    .rodape__imagem {
+        width: 100px;
+    }
+    .rodape__social{
+        align-items: flex-start;
+    } 
+}
+
+
+  
+    

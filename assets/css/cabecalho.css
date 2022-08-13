@@ -1,0 +1,43 @@
+body {
+    background: #151314;
+}
+.cabecalho {
+    align-items: center;
+    background: #21252A;
+    display:flex;
+    justify-content: space-between;
+    padding: 0 6rem;
+    flex-wrap: wrap; 
+}
+.logo {
+    padding: 0.40rem 0;
+    width: 60px;
+}
+.menu__lista {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.menu__item {
+    list-style: none;
+    padding-right: 1.5rem;
+}
+.menu__item:last-child .menu__link {
+    margin-right: 0;
+}
+.menu__link {
+    color: #F2F5F7;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 1s;
+}                                           
+.menu__link:hover {
+    border-bottom: 1px solid #EB602D;
+    color: #EB602D;
+}
+
+.menu__link.ativo {
+    color: #EB602D;
+    font-weight: bold;
+}
+

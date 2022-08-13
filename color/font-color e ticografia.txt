@@ -1,0 +1,20 @@
+font-color do meu site:
+ 
+preto-body    = #252525
+
+preto         = #21252A
+
+preto-banner  = #151314
+
+cinzenta      = #F2F5F7
+
+laranja       = #EB602D
+
+laranja hover = #913a1a
+
+
+
+amarelo      #F5B51B
+preto        #2F2F2F
+laranja      #FE6F26
+azul marinho #030D4E
