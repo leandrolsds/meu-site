@@ -6,8 +6,7 @@ body {
     background: #21252A;
     display:flex;
     justify-content: space-between;
-    padding: 0 6rem;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 }
 .logo {
     padding: 0.40rem 0;
@@ -40,4 +39,35 @@ body {
     color: #EB602D;
     font-weight: bold;
 }
+@media screen and (min-width: 0) {
+    .cabecalho {
+        padding: 1rem 1.5rem;
+    }
+    .menu__lista {
+        display: none;
+    }
+
+    .haburger {
+        width: 40px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho {
+        padding: 1rem 4rem;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .cabecalho {
+        padding: 1rem 6rem;
+    }
+    .menu__lista {
+        display: flex;
+    }
+    .haburger {
+        display: none;
+    }
+    
+}
+
 
