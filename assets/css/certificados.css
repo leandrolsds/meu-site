@@ -38,11 +38,7 @@
     transition: 1s;
 
 }
-.certificados__item:hover {
-    transform: translateY(-15px);
-    box-shadow: 0 0 20px #F2F5F7;
-    border-radius: 1rem;
-}
+
 .embreve {
     background:  #EB602D;
     display: flex;
@@ -91,6 +87,11 @@ a {
     .certificados {
         padding: 3rem 1.5rem;
     }
+    .certificados__item:hover {
+        transform: translateY(-15px);
+        box-shadow: 0 0 20px;
+        border-radius: 1rem;
+    }
     .certificado__titulo {
         font-size: 2rem;
         padding-bottom: 1rem;
@@ -125,6 +126,9 @@ a {
 @media screen and (min-width: 1024px) {
     .certificados {
         padding: 3rem;
+    }
+    .certificados__item:hover {
+        box-shadow: 0 0 20px #F2F5F7;
     }
     .certificado__titulo {
         font-size: 3rem;
