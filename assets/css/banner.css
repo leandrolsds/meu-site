@@ -21,10 +21,6 @@
     font-weight: 400;
 }
 .banner__descricao {
-    color: #F2F5F7;
-    font-size: 1.2rem;
-}
-.banner__descricao--dev {
     color: #EB602D;
     font-size: 3rem;
     font-weight: bold;
@@ -55,13 +51,13 @@
     .banner__apresentacao {
         padding: 0;
     }
-    .banner__descricao--dev {
+    .banner__descricao {
         font-size: 2rem;
         line-height: 1.2;
     } 
 }
 @media screen and (min-width: 768px) {
-    .banner__descricao--dev {
+    .banner__descricao {
         font-size: 3rem;
         
     }
