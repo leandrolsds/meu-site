@@ -34,7 +34,6 @@ body {
     border-bottom: 1px solid #EB602D;
     color: #EB602D;
 }
-
 .menu__link.ativo {
     color: #EB602D;
     font-weight: bold;
@@ -46,7 +45,6 @@ body {
     .menu__lista {
         display: none;
     }
-
     .hamburger {
         width: 40px;
     }
