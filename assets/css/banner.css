@@ -22,7 +22,6 @@
 }
 .banner__descricao {
     color: #EB602D;
-    font-size: 3rem;
     font-weight: bold;
 }
 .banner__botao {
@@ -59,7 +58,6 @@
 @media screen and (min-width: 768px) {
     .banner__descricao {
         font-size: 3rem;
-        
     }
 }
 @media screen and (min-width: 1024px) {
