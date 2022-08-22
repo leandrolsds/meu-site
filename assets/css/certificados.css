@@ -56,7 +56,8 @@
     border-radius: 10px;
 }
 .embreve__imagem {
-    width: 15%;
+    width: 20%;
+    padding-bottom: 2rem;
 }
 .embreve__titulo {
     font-size: 2rem;
