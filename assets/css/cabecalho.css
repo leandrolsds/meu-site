@@ -39,13 +39,17 @@ body {
 }
 @media screen and (min-width: 0) {
     .cabecalho {
-        padding: 0.60rem 1.5rem;
+        padding: 0.60rem 3rem;
     }
     .menu__lista {
         display: none;
     }
     .hamburger {
         width: 40px;
+        cursor: pointer;
+    }
+    .hamburger:hover {
+        color: #1c0901;
     }
 }
 
