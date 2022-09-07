@@ -1,4 +1,7 @@
 .rodape {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     background-color: #21252A;
 }
 .rodape__conteudo {
@@ -73,12 +76,12 @@
     color: #F2F5F7;
     text-align: center;
     padding: 0.25rem 0;
+    width: 100%;
 }
 @media screen and (min-width: 0) {
     .rodape__conteudo {
         flex-direction: column;
-        padding: 2rem;
-        align-items: center;
+        padding: 2rem;   
     }
     .rodape__imagem {
         width: 70px;
@@ -95,7 +98,8 @@
 @media screen and (min-width: 768px) {
     .rodape__conteudo {
         flex-direction: row;
-        align-items: center;
+        width: 100%;
+        
     }
     .copyright {
         font-size: 1rem;
@@ -106,6 +110,7 @@
 }
 @media screen and (min-width: 1024px) {
     .rodape__conteudo {
+        width: 1300px;
         padding: 4rem 0;
     }
     .rodape__imagem {
