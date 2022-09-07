@@ -139,7 +139,7 @@ svg circle:nth-child(3){
     }
     .card {
         margin-bottom: 2rem;
-        width: 250px;
+        width: 300px;
     }
 }
 @media screen and (min-width: 768px) {
