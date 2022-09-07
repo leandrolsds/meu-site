@@ -78,7 +78,7 @@
     .rodape__conteudo {
         flex-direction: column;
         padding: 2rem;
-        align-items: flex-start;
+        align-items: center;
     }
     .rodape__imagem {
         width: 70px;

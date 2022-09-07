@@ -10,6 +10,7 @@
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
     transition: 1s;
+    align-items: center;
  
 }
 .portfolios:hover {
@@ -72,12 +73,14 @@
     .portfolios {
         padding: 3rem;
     }
+    .portfolio__conteudo {
+        width: 1300px;
+    }
     .portfolio__titulo {
         font-size: 3rem;
     }
     .portfolio {
         width: calc(33.33% - 2rem);
-        max-width: 500px;
     }
     .portfolio__descricao {
         font-size: 2rem;
