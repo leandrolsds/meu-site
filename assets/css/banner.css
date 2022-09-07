@@ -11,6 +11,11 @@
     margin-bottom: 5rem;
 
 }
+.banner__conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .banner__apresentacao {
     line-height: 1.5;
     padding: 0 2rem;
@@ -63,6 +68,9 @@
 @media screen and (min-width: 1024px) {
     .banner {
         padding: 4rem;
+    }
+    .banner__conteudo {
+        width: 1300px;
     }
     .banner__imagem {
         display: flex;

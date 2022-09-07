@@ -1,4 +1,5 @@
 .sobre {
+    align-items: center;
     display: flex;
     background: #21252A;
     border-radius: 10px;
@@ -21,6 +22,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    width: 100%;
 
 }
 .sobre__titulo {
@@ -64,6 +66,9 @@ strong em {
     .sobre {
         padding: 5rem 0;
     }
+    .sobre__conteudo {
+        width: 1300px;
+    }
     .sobre__titulo {
         font-size: 3rem;
         padding-bottom: 4rem;
@@ -71,7 +76,7 @@ strong em {
     .sobre__descricao {
         font-size: 2rem;
         text-align: start;
-        max-width: 600px;
+        max-width: 500px;
     }
     .sobre__imagem {
         width: 100%;
