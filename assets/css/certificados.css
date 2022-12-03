@@ -26,10 +26,13 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
 }
 .certificado__lista {
     display: flex;
     flex-wrap: wrap;
+   
+
 }
 .certificado__item {
     background: #EB602D;
