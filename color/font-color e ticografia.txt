@@ -10,11 +10,11 @@ cinzenta      = #F2F5F7
 
 laranja       = #EB602D
 
-laranja hover = #913a1a
+laranja-hover = #913a1a
 
 
 
 amarelo      #F5B51B
 preto        #2F2F2F
 laranja      #FE6F26
-azul marinho #030D4E
+azul-marinho #030D4E

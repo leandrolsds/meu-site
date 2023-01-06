@@ -101,7 +101,7 @@ svg circle{
 }
 
 svg circle:nth-child(1){
-    stroke-dasharray: 396;
+    stroke-dasharray: 286;
 }
 
 svg circle:nth-child(2){

@@ -7,12 +7,13 @@ body {
     display:flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding: .3rem 3rem;
 }
 .logo {
-    width: 60px;
+    width: 40px;
 }
 .menu__lista {
-    display: flex;
+    display: none;
     flex-wrap: wrap;
     
 }
@@ -37,20 +38,19 @@ body {
     color: #EB602D;
     font-weight: bold;
 }
+.hamburger {
+    width: 20px;
+    cursor: pointer;
+}
+
 @media screen and (min-width: 0) {
     .cabecalho {
-        padding: 0.60rem 3rem;
+        
     }
     .menu__lista {
-        display: none;
+        
     }
-    .hamburger {
-        width: 40px;
-        cursor: pointer;
-    }
-    .hamburger:hover {
-        color: #1c0901;
-    }
+    
 }
 
 @media screen and (min-width: 768px) {
