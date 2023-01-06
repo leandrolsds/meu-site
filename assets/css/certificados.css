@@ -1,7 +1,7 @@
 .certificados {
     display: flex;
     margin-bottom: 5rem;
-    
+ 
     flex-direction: column;
     border-bottom: 1px solid #EB602D;
     border-bottom-left-radius: 2rem;
