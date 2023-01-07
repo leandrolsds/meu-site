@@ -1,20 +1,9 @@
 .sobre {
     align-items: center;
     display: flex;
-    background: #21252A;
     border-radius: 10px;
     flex-direction: column;
     margin-bottom: 5rem;
-    border-bottom: 1px solid #F2F5F7;
-    border-bottom-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
-    border-top: 1px solid #F2F5F7;
-    border-top-left-radius: 2rem;
-    border-top-right-radius: 2rem;
-    transition: 1s;
-}
-.sobre:hover {
-    box-shadow: 0 0 20px #F2F5F7;
 }
 .sobre__conteudo {
     align-items: center;
@@ -26,16 +15,15 @@
 
 }
 .sobre__titulo {
-    color: #dbdbdb;
-    text-align: center;
+    color: #333;
 
 }
 .sobre__descricao {
-    color: #dbdbdb;
+    color: #7A7A7A;
  
 }
 strong em {
-    color: #EB602D;
+    color: #393232;
 }
 @media screen and (min-width: 0) {
     .sobre {
@@ -70,11 +58,11 @@ strong em {
         width: 1300px;
     }
     .sobre__titulo {
-        font-size: 3rem;
-        padding-bottom: 4rem;
+        font-size: 2rem;
+        padding-bottom: .5rem;
     }
     .sobre__descricao {
-        font-size: 2rem;
+        font-size: 1.5rem;
         text-align: start;
         max-width: 500px;
     }

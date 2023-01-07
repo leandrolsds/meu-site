@@ -1,19 +1,10 @@
 .certificados {
+    background-color: #333;
     display: flex;
-    margin-bottom: 5rem;
     flex-direction: column;
-    border-bottom: 1px solid #EB602D;
-    border-bottom-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
-    border-top: 1px solid #EB602D;
-    border-top-left-radius: 2rem;
-    border-top-right-radius: 2rem;
     align-items: center;
-    padding: 3rem 0rem;
+    padding: 3rem;
     transition: 1s;
-}
-.certificados:hover {
-    box-shadow: 0 0 20px #EB602D;
 }
 .certificado__titulo {
     color: #F2F5F7;
@@ -38,7 +29,7 @@
 
 }
 .certificado__item {
-    background: #EB602D;
+    background: #E7F500;
     display: flex;
     justify-content: center;
     padding: 1rem 0;
@@ -53,7 +44,7 @@
     box-shadow: 0 0 20px;
 }
 .embreve {
-    background:  #EB602D;
+    background:  #E7F500;
     display: flex;
     justify-content: center;
     border-radius: 10px;
@@ -86,7 +77,7 @@
 }
 @media screen and (min-width: 1024px) {
     .certificados {
-        padding: 3rem;
+        padding: 3rem 0rem 4rem 0rem;
     }
     .meus__certificados {
         width: 1300px;
@@ -94,9 +85,7 @@
     .certificado__lista {
         grid-template-columns: auto auto auto;
     }
-    .certificado__item:hover {
-        box-shadow: 0 0 20px #F2F5F7;
-    }
+   
     .certificado__titulo {
         font-size: 3rem;
         padding-bottom: 3rem;

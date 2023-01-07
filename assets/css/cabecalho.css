@@ -1,13 +1,12 @@
-body {
-    background: #151314;
-}
-.cabecalho {
+
+.cabecalho, .a {
+    
     align-items: center;
-    background: #21252A;
+    background: #E7F500;
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
-    padding: .3rem 3rem;
+    padding: .2rem 0;
 }
 .logo {
     width: 40px;
@@ -18,24 +17,25 @@ body {
     
 }
 .menu__item {
-    list-style: none;
     padding-right: 1.5rem;
 }
 .menu__item:last-child .menu__link {
     margin-right: 0;
 }
 .menu__link {
-    color: #F2F5F7;
+    border-radius: 30px;
+    padding: .3rem .8rem ;
+    color: #333;
     font-size: 20px;
-    text-decoration: none;
     transition: 1s;
 }                                           
 .menu__link:hover {
-    border-bottom: 1px solid #EB602D;
-    color: #EB602D;
+    background-color: #333;
+    color: #E7F500;
 }
 .menu__link.ativo {
-    color: #EB602D;
+    background-color: #363533;
+    color: #E7F500;
     font-weight: bold;
 }
 .hamburger {
@@ -43,25 +43,10 @@ body {
     cursor: pointer;
 }
 
-@media screen and (min-width: 0) {
-    .cabecalho {
-        
-    }
-    .menu__lista {
-        
-    }
-    
-}
-
 @media screen and (min-width: 768px) {
-    .cabecalho {
-        padding: 1rem 4rem;
-    }
+
 }
 @media screen and (min-width: 1024px) {
-    .cabecalho {
-        padding: 0.60rem 6rem;
-    }
     .menu__lista {
         display: flex;
     }
